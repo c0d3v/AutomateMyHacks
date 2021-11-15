@@ -1,6 +1,5 @@
 #!/bin/bash
-sudo bash 
-cd /opt/
+sudo cd /opt/
 echo "[+] Strat Installing This Will Take A While"
 apt update 
 apt install iw aircrack-ng iproute2 procps procps-ng libssl-dev libnl-dev awk gawk pciutils crunch mdk4 hostapd lighttpd iptables  -y
